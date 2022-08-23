@@ -184,6 +184,10 @@ GuardDuty は CloudTrail、VPC フローログ、DNS ログを分析して継続
 GuarDuty が検出する脅威の詳細は AWS ドキュメントに記載がある。  
 [アクティブな結果タイプ](https://docs.aws.amazon.com/ja_jp/guardduty/latest/ug/guardduty_finding-types-active.html)
 
+Athena を使用して S3に出力したGuardDutyの検出結果をクエリすることができる。  
+クエリ方法、サンプルは公式ドキュメントに記述がある。
+[Amazon GuardDuty の結果のクエリ](https://docs.aws.amazon.com/ja_jp/athena/latest/ug/querying-guardduty.html)
+
 
 ### Security Hub(Detect)
 Security Hub によって AWS アカウントのセキュリティチェックを自動的に行う。  
